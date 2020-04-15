@@ -22,7 +22,7 @@ export default class LabelTriggered extends React.Component<ILabelTriggeredProps
   }
 
   componentDidMount() {
-    let newContent = this.state.labelContent + ', but I have been turned red by componentDidMount';
+    let newContent = this.state.labelContent + ', but I have been turned red by componentDidMount()';
     this.setState( {
       labelColor: 'red',
       labelContent: newContent
